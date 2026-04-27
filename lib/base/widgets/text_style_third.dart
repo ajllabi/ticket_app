@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:ticket_app/base/res/styles/app_styles.dart';
 
-class TexyStyleThird extends StatelessWidget {
+class TextStyleThird extends StatelessWidget {
   final String text;
 
-  const TexyStyleThird({super.key, required this.text});
+  const TextStyleThird({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
