@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 class AppLayoutBuilderWidget extends StatelessWidget {
   final int randomDivider;
   final double width;
+  final bool? isColor;
 
   const AppLayoutBuilderWidget({
     super.key,
     required this.randomDivider,
     this.width = 3,
+    this.isColor = true,
   });
 
   @override
@@ -23,7 +25,9 @@ class AppLayoutBuilderWidget extends StatelessWidget {
               width: width,
               height: 1,
               child: DecoratedBox(
-                decoration: BoxDecoration(color: Colors.white),
+                decoration: BoxDecoration(
+                  color: isColor == true ? Colors.white : Colors.grey.shade300,
+                ),
               ),
             ),
           ),
