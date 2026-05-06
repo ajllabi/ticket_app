@@ -15,6 +15,7 @@ class SearchScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: AppStyles.scaffoldBGColor,
+      //appBar: AppBar(title: const Text("Tickets")),
       body: ListView(
         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         children: [
