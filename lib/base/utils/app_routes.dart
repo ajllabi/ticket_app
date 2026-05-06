@@ -1,4 +1,4 @@
-import 'package:ticket_app/screens/hotel_detail.dart';
+//import 'package:ticket_app/screens/hotel_detail.dart';
 
 class AppRoutes {
   static const homePage = "/";

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ticket_app/base/res/styles/app_styles.dart';
-import 'package:ticket_app/base/widgets/big_circle.dart';
+//import 'package:ticket_app/base/widgets/big_circle.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

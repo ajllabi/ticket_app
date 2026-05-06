@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ticket_app/main.dart';
+//import 'package:ticket_app/main.dart';
 
 void main() {
   runApp(MyApp());
