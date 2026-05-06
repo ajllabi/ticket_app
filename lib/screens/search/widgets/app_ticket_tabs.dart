@@ -12,7 +12,7 @@ class AppTicketTabs extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+    //final size = MediaQuery.of(context).size;
 
     return Container(
       decoration: BoxDecoration(
